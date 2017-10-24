@@ -73,16 +73,19 @@ export default class NavigationBar extends Component {
       PropTypes.shape(ButtonShape),
       PropTypes.element,
       PropTypes.oneOf([null]),
+      PropTypes.object
     ]),
     rightButton: PropTypes.oneOfType([
       PropTypes.shape(ButtonShape),
       PropTypes.element,
       PropTypes.oneOf([null]),
+      PropTypes.object
     ]),
     title: PropTypes.oneOfType([
       PropTypes.shape(TitleShape),
       PropTypes.element,
       PropTypes.oneOf([null]),
+      PropTypes.object
     ]),
     containerStyle: ViewPropTypes.style,
   };
