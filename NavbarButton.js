@@ -40,7 +40,7 @@ NavbarButton.propTypes = {
     PropTypes.array,
   ]),
   tintColor: PropTypes.string,
-  title: PropTypes.string,
+  title: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   handler: PropTypes.func,
   disabled: PropTypes.bool,
   accessible: PropTypes.bool,
